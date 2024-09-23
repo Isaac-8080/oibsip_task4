@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>task 4</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+  
+  <div class="w-full bg-[#111] md:bg-[#FFFFFF] md:w-fit md:mx-auto h-[100dvh] flex flex-col items-center justify-center">
+    <div class="bg-[#111] px-5 py-10 md:py-5 md:rounded-3xl flex flex-col justify-between items-center">
+
+      <div class="">
+        <div class="">
+          <input type="text" id="display" class="w-[100%] mb-5 bg-[#111] text-[#FFFFFF] font-bold text-[22px]" disabled>
+        </div>
+        <div class="flex flex-row items-center justify-between py-10 md:p-10">
+          <span></span>
+          <span id="results" class="h-5 text-[#FFFFFF] font-bold text-[22px]">0</span>
+        </div>
+      </div>
+  
+      <div class="grid grid-cols-4 gap-2">
+        <button class="keys rounded-full hover:opacity-85 bg-[#A5A5A5] text-[#000000] w-[80px] h-[80px] md:w-[60px] md:h-[60px] text-center font-bold text-[22px]">C</button>
+
+        <button class="keys rounded-full hover:opacity-85 bg-[#A5A5A5] text-[#000000] w-[80px] h-[80px] md:w-[60px] md:h-[60px] text-center font-bold text-[22px]" disabled>+/-</button>
+
+        <button class="keys rounded-full hover:opacity-85 bg-[#A5A5A5] text-[#000000] w-[80px] h-[80px] md:w-[60px] md:h-[60px] text-center font-bold text-[22px]">%</button>
+
+        <button class="keys rounded-full hover:opacity-85 bg-[#FF9F0A] text-[#FFFFFF] w-[80px] h-[80px] md:w-[60px] md:h-[60px] text-center font-bold text-[22px]">/</button>
+
+        <button class="keys rounded-full hover:opacity-85 bg-[#333333] text-[#FEFEFE] w-[80px] h-[80px] md:w-[60px] md:h-[60px] text-center font-bold text-[22px]">7</button>
+
+        <button class="keys rounded-full hover:opacity-85 bg-[#333333] text-[#FEFEFE] w-[80px] h-[80px] md:w-[60px] md:h-[60px] text-center font-bold text-[22px]">8</button>
+
+        <button class="keys rounded-full hover:opacity-85 bg-[#333333] text-[#FEFEFE] w-[80px] h-[80px] md:w-[60px] md:h-[60px] text-center font-bold text-[22px]">9</button>
+
+        <button class="keys rounded-full hover:opacity-85 bg-[#FF9F0A] text-[#FFFFFF] w-[80px] h-[80px] md:w-[60px] md:h-[60px] text-center font-bold text-[22px]">*</button>
+
+        <button class="keys rounded-full hover:opacity-85 bg-[#333333] text-[#FEFEFE] w-[80px] h-[80px] md:w-[60px] md:h-[60px] text-center font-bold text-[22px]">4</button>
+
+        <button class="keys rounded-full hover:opacity-85 bg-[#333333] text-[#FEFEFE] w-[80px] h-[80px] md:w-[60px] md:h-[60px] text-center font-bold text-[22px]">5</button>
+
+        <button class="keys rounded-full hover:opacity-85 bg-[#333333] text-[#FEFEFE] w-[80px] h-[80px] md:w-[60px] md:h-[60px] text-center font-bold text-[22px]">6</button>
+
+        <button class="keys rounded-full hover:opacity-85 bg-[#FF9F0A] text-[#FFFFFF] w-[80px] h-[80px] md:w-[60px] md:h-[60px] text-center font-bold text-[22px]">-</button>
+
+        <button class="keys rounded-full hover:opacity-85 bg-[#333333] text-[#FEFEFE] w-[80px] h-[80px] md:w-[60px] md:h-[60px] text-center font-bold text-[22px]">1</button>
+
+        <button class="keys rounded-full hover:opacity-85 bg-[#333333] text-[#FEFEFE] w-[80px] h-[80px] md:w-[60px] md:h-[60px] text-center font-bold text-[22px]">2</button>
+
+        <button class="keys rounded-full hover:opacity-85 bg-[#333333] text-[#FEFEFE] w-[80px] h-[80px] md:w-[60px] md:h-[60px] text-center font-bold text-[22px]">3</button>
+
+        <button class="keys rounded-full hover:opacity-85 bg-[#FF9F0A] text-[#FFFFFF] w-[80px] h-[80px] md:w-[60px] md:h-[60px] text-center font-bold text-[22px]">+</button>
+
+        <button class="keys rounded-full hover:opacity-85 bg-[#333333] text-[#FEFEFE] text-start pl-7 col-span-2 font-bold text-[22px]">0</button>
+
+        <button class="keys rounded-full hover:opacity-85 bg-[#333333] text-[#FFFFFF] w-[80px] h-[80px] md:w-[60px] md:h-[60px] text-center font-bold text-[22px]">.</button>
+
+        <button class="keys rounded-full hover:opacity-85 bg-[#FF9F0A] text-[#FFFFFF] w-[80px] h-[80px] md:w-[60px] md:h-[60px] text-center font-bold text-[22px]">=</button>
+
+      </div>
+
+    </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
